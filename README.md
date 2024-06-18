@@ -3,19 +3,19 @@
 #### with cinnamon, cats, tea, oranges and a bit of sunshine
 
 ---
-<!-- Plugin description -->
 #### Description:
-- a modification of the dracula theme to make it reddish-orange dark instead of green.
+
+- a modification of the dracula theme to make it reddish-orange instead of green and darker.
 - some java code coloring is present
 - It's usable, most of the ui components have correct colors - let me know if something is missing
-  ![image](resources/theme.png)
 - inspired by warm-night theme form: https://github.com/mswift42/intellij-ui-themes
 
-<!-- Plugin description end -->
+___
+![ThemePreview](Preview.png)
 
 #### known issues: 
-- inactive window "bar" color is white
-- code highlighting is still green - especially annoying in sql
+
+- inactive window "bar" color is sometimes white
 
 Due to the pain of making themes in xml (no docs and a ton of variables referring to the same thing) fixing has been put on hold.
 ## Installation
