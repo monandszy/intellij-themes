@@ -28,22 +28,22 @@
     <option name="FILESTATUS_UNKNOWN" value="f59762"/>
 
     <!--    horizontal scrollbar disabled, vertical not possible... -->
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="292424"/>
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="292424"/>
-    <option name="ScrollBar.Mac.Transparent.thumbColor" value="292424"/>
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="292424"/>
-    <option name="ScrollBar.Mac.hoverThumbColor" value="292424"/>
-    <option name="ScrollBar.Mac.hoverTrackColor" value="292424"/>
-    <option name="ScrollBar.Mac.thumbColor" value="292424"/>
-    <option name="ScrollBar.Mac.trackColor" value="292424"/>
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="292424"/>
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="292424"/>
-    <option name="ScrollBar.Transparent.thumbColor" value="292424"/>
-    <option name="ScrollBar.Transparent.trackColor" value="292424"/>
-    <option name="ScrollBar.hoverThumbColor" value="292424"/>
-    <option name="ScrollBar.hoverTrackColor" value="292424"/>
-    <option name="ScrollBar.thumbColor" value="292424"/>
-    <option name="ScrollBar.trackColor" value="292424"/>
+    <!--    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Mac.Transparent.thumbColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Mac.Transparent.trackColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Mac.hoverThumbColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Mac.hoverTrackColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Mac.thumbColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Mac.trackColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Transparent.hoverThumbColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Transparent.hoverTrackColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Transparent.thumbColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.Transparent.trackColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.hoverThumbColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.hoverTrackColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.thumbColor" value="292424"/>-->
+    <!--    <option name="ScrollBar.trackColor" value="292424"/>-->
 
 
     <option name="ADDED_LINES_COLOR" value="959595"/>
