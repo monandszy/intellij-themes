@@ -1,0 +1,13 @@
+    "Label": {
+      "disabledForeground": "docsColor",
+      "disabledText": "docsColor",
+      "infoForeground": "docsColor",
+      "selectedForeground": "docsColor"
+    },
+    "Link": {
+      "activeForeground": "linkColor",
+      "hoverForeground": "linkColor",
+      "pressedForeground": "linkColor",
+      "secondaryForeground": "linkColor",
+      "visitedForeground": "linkColor"
+    },

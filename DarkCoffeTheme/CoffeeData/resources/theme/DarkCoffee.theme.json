@@ -1,0 +1,186 @@
+{
+  "name": "DarkCoffee",
+  "dark": true,
+  "author": "0o-Mi",
+  "editorScheme": "/theme/DarkCoffee.xml",
+  "colors": {
+    "backgroundColor": "#2D2725",
+    "noInactiveColor": "backgroundColor",
+    "borderColor": "#6c6c6c",
+    "borderColorAlternative": "#323232",
+    "foregroundColor": "#c1c1c1",
+    "foregroundColorAlternative": "#a3a3a3",
+    "highlightColor": "#c1c1c1",
+    "selectionColor": "#3b3636",
+    "errorColor": "#e81050",
+    "focusColor": "#4c4c4c",
+    "docsColor": "#de744b",
+    "defaultBackgroundColor": "#5a5a5a",
+    "modifiedColor": "#a37900",
+    "linkColor": "#bc2525"
+  },
+  "ui": {
+    "*": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "inactiveBackground": "noInaciveColor",
+      "disabledBackground": "noInactiveColor",
+      "disabledBorderColor": "noInactiveColor",
+      "disabledSeparatorColor": "noInactiveColor",
+      "borderColor": "borderColor",
+      "separatorColor": "borderColor",
+      "separatorForeground": "#955a03",
+      "windowBorder": "borderColor",
+      "iconColor": "foregroundColor",
+      "selectionBackground": "selectionColor",
+      "selectionInactiveBackground": "selectionColor",
+      "selectionInactiveForeground": "foregroundColor",
+      "focusColor": "focusColor",
+      "focusedBorderColor": "focusColor",
+      "selectionForeground": "highlightColor",
+      "acceleratorForeground": "docsColor",
+      "acceleratorSelectionForeground": "docsColor",
+      "errorForeground": "errorColor"
+    },
+    "Popup": {
+      "Advertiser": {
+      },
+      "inactiveBorderColor": "noInactiveColor",
+      "innerBorderColor": "borderColor",
+      "Header": {
+        "activeBackground": "backgroundColor"
+      }
+    },
+
+    "Borders": {
+      "color": "borderColor",
+      "ContrastBorderColor": "borderColor"
+    },
+    "Button": {
+      "default": {
+        "endBackground": "defaultBackgroundColor",
+        "endBorderColor": "borderColor",
+        "focusedBorderColor": "focusColor",
+        "shadowColor": "backgroundColor",
+        "startBackground": "defaultBackgroundColor",
+        "startBorderColor": "borderColor"
+      },
+      "disabledBorderColor": "backgroundColor",
+      "disabledText": "foregroundColor",
+      "endBackground": "backgroundColor",
+      "endBorderColor": "borderColor",
+      "focusedBorderColor": "focusColor",
+      "startBackground": "backgroundColor",
+      "startBorderColor": "borderColor"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "disabledIconColor": "backgroundColor",
+        "nonEditableBackground": "backgroundColor"
+      },
+      "nonEditableBackground": "backgroundColor",
+      "modifiedItemForeground": "modifiedColor"
+    },
+    "Plugins": {
+      "lightSelectionBackground": "selectionColor",
+      "hoverBackground": "backgroundColor",
+      "Button": {
+        "installBackground": "backgroundColor",
+        "installBorderColor": "borderColor",
+        "installForeground": "foregroundColor",
+        "installFocusedBackground": "backgroundColor",
+        "installFillForeground": "foregroundColor",
+        "installFillBackground": "backgroundColor",
+        "updateBackground": "backgroundColor",
+        "updateBorderColor": "borderColor",
+        "updateForeground": "foregroundColor"
+      }
+    },
+    "MemoryIndicator": {
+      "allocatedBackground": "backgroundColor",
+      "usedBackground": "defaultBackgroundColor"
+    },
+    "MenuBar": {
+      "disabledBackground": "errorCode",
+      "disabledForeground": "errorCode",
+      "highlight": "foregroundColor",
+      "selectionBackground": "errorCode",
+      "selectionForeground": "errorCode",
+      "shadow": "errorCode"
+    }
+  },
+
+  "ValidationTooltip": {
+    "errorBackground": "0C9DAC",
+    "errorBorderColor": "AC0F1D",
+    "warningBackground": "AC0F1D",
+    "warningBorderColor": "AC0F1D"
+  },
+  "VersionControl": {
+    "FileHistory": {
+      "Commit": {
+        "selectedBranchBackground": "AC0F1D"
+      }
+    },
+    "GitLog": {
+      "localBranchIconColor": "AC0F1D",
+      "otherIconColor": "AC0F1D",
+      "remoteBranchIconColor": "AC0F1D",
+      "tagIconColor": "AC0F1D"
+    },
+    "HgLog": {
+      "branchIconColor": "AC0F1D",
+      "bookmarkIconColor": "AC0F1D",
+      "closedBranchIconColor": "AC0F1D",
+      "localTagIconColor": "AC0F1D",
+      "mqTagIconColor": "AC0F1D",
+      "tagIconColor": "AC0F1D",
+      "tipIconColor": "AC0F1D"
+    },
+    "Log": {
+      "Commit": {
+        "unmatchedForeground": "AC0F1D",
+        "currentBranchBackground": "AC0F1D"
+      }
+    },
+    "RefLabel": {
+    }
+  },
+  "Viewport": {
+  },
+  "WelcomeScreen": {
+    "captionBackground": "AC0F1D",
+    "captionForeground": "AC0F1D",
+    "footerBackground": "AC0F1D",
+    "footerForeground": "AC0F1D",
+    "headerBackground": "AC0F1D",
+    "headerForeground": "AC0F1D",
+    "Projects": {
+      "selectionBackground": "AC0F1D",
+      "selectionInactiveBackground": "AC0F1D"
+    },
+    "separatorColor": "AC0F1D"
+  },
+  "window": "AC0F1D",
+  "Window": {
+    "border": "0,0,0,0,AC0F1D"
+  },
+  "windowBorder": "AC0F1D",
+  "windowText": "AC0F1D",
+
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "backgroundColor",
+      "Checkbox.Background.Disabled.Dark": "backgroundColor",
+      "Checkbox.Background.Selected.Dark": "backgroundColor",
+      "Checkbox.Border.Default.Dark": "borderColor",
+      "Checkbox.Border.Disabled.Dark": "borderColor",
+      "Checkbox.Border.Selected.Dark": "borderColor",
+      "Checkbox.Focus.Thin.Default.Dark": "focusColor",
+      "Checkbox.Focus.Thin.Selected.Dark": "focusColor",
+      "Checkbox.Focus.Wide.Dark": "focusColor",
+      "Checkbox.Foreground.Disabled.Dark": "foregrounColor",
+      "Checkbox.Foreground.Selected.Dark": "foregroundColor"
+    }
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "name": "SunLike",
+  "dark": true,
+  "author": "monandszy",
+  "editorScheme": "/theme/SunLike.xml",
+  "colors": {
+    "backgroundColor": "#000000",
+    "hoverBackgroundColor": "#202000",
+    "selectionColor": "#252500",
+    "borderColor": "#6c6c00",
+    "foregroundColor": "#C1C100",
+    "disabledForeground": "#AA0000",
+    "highlightColor": "#B4B400",
+    "errorColor": "#e81000",
+    "focusColor": "#4c4c00",
+    "docsColor": "#de7400",
+    "linkColor": "#bc2500"
+  },
+  "ui": {
+    "*": {
+      "background": "backgroundColor",
+      "inactiveBackground": "backgroundColor",
+      "disabledBackground": "backgroundColor",
+      "startBackground": "backgroundColor",
+      "endBackground": "backgroundColor",
+
+      "foreground": "foregroundColor",
+      "selectedForeground": "foregroundColor",
+      
+      "disabledForeground": "disabledForeground",
+      "disabledText": "disabledForeground",
+
+      "inactiveForeground": "foregroundColor",
+      "lightSelectionInactiveForeground": "foregroundColor",
+      "selectionInactiveForeground": "foregroundColor",
+
+      "selectionBackground": "selectionColor",
+      "selectionInactiveBackground": "selectionColor",
+      "lightSelectionBackground": "selectionColor",
+      "lightSelectionInactiveBackground": "selectionColor",
+      "selectedBackground": "selectionColor",
+
+      "selectionForeground": "highlightColor",
+      "lightSelectionForeground": "highlightColor",
+
+      "infoForeground": "docsColor",
+      "acceleratorForeground": "docsColor",
+      "acceleratorSelectionForeground": "docsColor",
+
+      "focusColor": "focusColor",
+      "focusedBorderColor": "focusColor",
+
+      "borderColor": "borderColor",
+      "disabledBorderColor": "borderColor",
+      "separatorColor": "borderColor",
+      "separatorForeground": "borderColor",
+      "lineSeparatorColor": "borderColor",
+      "startBorderColor": "borderColor",
+      "endBorderColor": "borderColor",
+
+      "modifiedItemForeground": "focusColor",
+
+      "informativeBackground": "backgroundColor",
+      "informativeBorderColor": "borderColor",
+      "errorForeground": "errorColor",
+      "errorBackground": "backgroundColor",
+      "errorBorderColor": "borderColor",
+      "warningBackground": "backgroundColor",
+      "warningBorderColor": "borderColor",
+
+      "hoverBackground": "hoverBackgroundColor"
+      
+    },
+    "ActionButton": {
+      "pressedBackground": "backgroundColor",
+      "hoverBorderColor": "borderColor",
+      "pressedBorderColor": "focusColor"
+    },
+    "Borders": {
+      "color": "borderColor",
+      "ContrastBorderColor": "borderColor"
+    },
+    "Button": {
+      "arc": 0,
+      "shadowWidth": 0,
+      "shadowColor": "backgroundColor",
+      "default": {
+        "shadowColor": "backgroundColor"
+      }
+    },
+    "ComboBox": {
+      "nonEditableBackground": "backgroundColor",
+      "ArrowButton": {
+        "nonEditableBackground": "backgroundColor"
+      }
+    },
+    "ComboPopup.border": "borderColor",
+    "CompletionPopup": {
+      "matchForeground": "highlightColor",
+      "nonFocusedMask": "backgroundColor",
+      "selectionBackground": "selectionColor"
+    },
+    "Component": {
+      "errorFocusColor": "errorColor",
+      "inactiveErrorFocusColor": "errorColor",
+      "warningFocusColor": "focusColor",
+      "inactiveWarningFocusColor": "focusColor"
+    },
+    "Counter": {},
+    "DebuggerPopup.borderColor": "borderColor",
+    "DefaultTabs": {
+      "inactiveUnderlineColor": "focusColor",
+      "underlineColor": "linkColor",
+      "underlineHeight": 2,
+      "underlinedTabBackground": "backgroundColor"
+    },
+    "DragAndDrop": {
+      "areaBackground": "backgroundColor",
+      "areaBorderColor": "borderColor"
+    },
+    "Editor": {
+      "shortcutForeground": "foregroundColor"
+    },
+    "EditorPane.inactiveBackground": "backgroundColor",
+    "EditorTabs": {
+      "inactiveMaskColor": "borderColor",
+      "tabInsets": true,
+      "underlinedTabBackground": "backgroundColor",
+      "inactiveColoredFileBackground": "backgroundColor",
+      "inactiveUnderlineColor": "foregroundColor",
+      "underlineColor": "foregroundColor",
+      "underlinedTabForeground": "foregroundColor"
+    },
+    "FlameGraph": {
+      "JVMBackground": "backgroundColor",
+      "nativeBackground": "backgroundColor",
+      "parentBackground": "backgroundColor",
+      "JVMFocusBackground": "selectionColor",
+      "nativeFocusBackground": "selectionColor",
+      "parentFocusBackground": "selectionColor",
+      "JVMFrameForeground": "foregroundColor",
+      "nativeFrameForeground": "foregroundColor",
+      "parentFrameForeground": "foregroundColor",
+      "JVMFocusedFrameForeground": "foregroundColor",
+      "nativeFocusedFrameForeground": "foregroundColor",
+      "parentFocusedFrameForeground": "foregroundColor"
+    },
+    "InplaceRefactoringPopup": {},
+    "Label": {
+      "selectedDisabledForeground": "disabledForeground"
+    },
+    "Link": {
+      "secondaryForeground": "foregroundColor",
+      "activeForeground": "linkColor",
+      "hoverForeground": "foregroundColor",
+      "pressedForeground": "linkColor",
+      "visitedForeground": "linkColor"
+    },
+    "Notification": {
+      "MoreButton": {
+        "innerBorderColor": "borderColor"
+      },
+      "ToolWindow": {
+      }
+    },
+    "NotificationsToolwindow": {
+    },
+    "ParameterInfo": {
+      "currentOverloadBackground": "backgroundColor",
+      "currentParameterForeground": "foregroundColor"
+    },
+    "Plugins": {
+      "eapTagBackground": "backgroundColor",
+      "Tab": {
+       
+      },
+      "tagBackground": "backgroundColor",
+      "tagForeground": "foregroundColor",
+      "Button": {
+        "installForeground": "foregroundColor",
+        "installBorderColor": "borderColor",
+        "installFillForeground": "foregroundColor",
+        "installFillBackground": "backgroundColor",
+        "updateForeground": "foregroundColor",
+        "updateBackground": "backgroundColor"
+      }
+    },
+    "Popup": {
+      "paintBorder": true,
+      "inactiveBorderColor": "borderColor",
+      "innerBorderColor": "borderColor",
+      "Toolbar": {
+      },
+      "Header": {
+        "activeBackground": "backgroundColor"
+      },
+      "Advertiser": {}
+    },
+    "ProgressBar": {
+      "trackColor": "backgroundColor",
+      "progressColor": "foregroundColor",
+      "indeterminateStartColor": "foregroundColor",
+      "indeterminateEndColor": "foregroundColor",
+      "failedColor": "errorColor",
+      "failedEndColor": "errorColor",
+      "passedColor": "focusColor",
+      "passedEndColor": "focusColor"
+    },
+    "ScrollBar": {
+      "thumbColor": "foregroundColor",
+      "thumbBorderColor": "borderColor",
+      "hoverThumbColor": "foregroundColor",
+      "hoverThumbBorderColor": "borderColor",
+      "trackColor": "backgroundColor"
+    },
+    "SearchEverywhere": {
+      "Advertiser": {
+        "background": "backgroundColor",
+        "foreground": "foregroundColor"
+      },
+      "Header": {
+        "background": "backgroundColor"
+      },
+      "SearchField": {
+        "background": "backgroundColor",
+        "infoForeground": "foregroundColor"
+      }
+    },
+    "SearchMatch": {
+      "endBackground": "selectionColor",
+      "startBackground": "selectionColor"
+    },
+    "TabbedPane": {
+      "contentAreaColor": "backgroundColor",
+      "focus": "focusColor",
+      "hoverColor": "hoverBackgroundColor",
+      "underlineColor": "foregroundColor",
+      "disabledUnderlineColor": "disabledForeground"
+    },
+    "Table": {
+      "stripeColor": "backgroundColor"
+    },
+    "ToggleButton": {
+      "onBackground": "backgroundColor",
+      "offBackground": "backgroundColor",
+      "buttonColor": "foregroundColor",
+      "offForeground": "foregroundColor",
+      "onForeground": "foregroundColor"
+    },
+    "ToolTip": {
+    },
+    "ToolWindow": {
+      "Header": {},
+      "HeaderTab": {
+        "selectedInactiveBackground": "backgroundColor",
+        "hoverInactiveBackground": "backgroundColor",
+        "inactiveUnderlineColor": "foregroundColor",
+        "underlineColor": "foregroundColor",
+        "underlinedTabBackground": "backgroundColor",
+        "underlinedTabInactiveBackground": "backgroundColor"
+      },
+      "Button": {
+      }
+    },
+    "Tree": {},
+    "ValidationTooltip": {
+    },
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "selectionColor"
+      },
+      "RefLabel": {
+        "backgroundBase": "selectionColor"
+      },
+      "FileHistory.Commit.selectedBranchBackground": "selectionColor"
+    },
+    "WelcomeScreen": {
+      "Projects.selectionInactiveBackground": "selectionColor"
+    },
+    "MemoryIndicator": {
+      "allocatedBackground": "backgroundColor",
+      "usedBackground": "backgroundColor"
+    },
+    "MenuBar": {
+      "highlight": "highlightColor",
+      "shadow": "backgroundColor"
+    }
+  }
+}

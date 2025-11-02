@@ -1,23 +1,21 @@
-# Dark Coffee
+# Intellij Idea High-Contrast theme builder
 
-#### with cinnamon, cats, tea, oranges and a bit of sunshine
-
----
 #### Description:
 
-- a modification of the dracula theme to make it reddish-orange instead of green and darker.
-- some java code coloring is present
-- It's usable, most of the ui components have correct colors - let me know if something is missing
-- inspired by warm-night theme form: https://github.com/mswift42/intellij-ui-themes
+This repository contains my themes for Intellij Idea, made for the version 2024.3, old UI style. First, it contains the deprecated DarkCoffee which was created using the original guidelines for theme project. Second, there is the SunLike theme which uses a custom-made framework - the "*" global colors in theme.json, and a python .xml parser to parse {color_name} into predefined hexes.
 
-___
-![ThemePreview](Preview.png)
+#### My Themes:
 
-#### known issues: 
+##### DarkCoffee
+- reddish-brown theme with soft white.
+- has resuidual coloring from dracula
 
-- inactive window "bar" color is sometimes white
+##### DarkCoffee
+- a high-contrast black, warm colored theme.
+- more complete code coloring
 
-Due to the pain of making themes in xml (no docs and a ton of variables referring to the same thing) fixing has been put on hold.
+---
+
 ## Installation
 
 - Manually:

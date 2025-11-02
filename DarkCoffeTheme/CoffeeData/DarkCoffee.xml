@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheme name="DarkCoffee" version="142" parent_scheme="Darcula">
+    <colors>
+        <option name="ADDED_LINES_COLOR" value="959595"/>
+        <option name="ANNOTATIONS_COLOR" value="959595"/>
+        <option name="ANNOTATIONS_MERGED_COLOR" value="959595"/>
+
+        <!-- Backgrounds -->
+        <option name="GUTTER_BACKGROUND" value="2A2421"/>
+
+        <option name="CARET_ROW_COLOR" value="352E2C"/>
+        <option name="METHOD_SEPARATORS_COLOR" value="352E2C"/>
+        <option name="RIGHT_MARGIN_COLOR" value="352E2C"/>
+        <option name="SEPARATOR_BELOW_COLOR" value="352E2C"/>
+        <option name="SEPARATOR_ABOVE_COLOR" value="352E2C"/>
+        <option name="CONSOLE_BACKGROUND_KEY" value="352E2C"/>
+        <option name="NOTIFICATION_BACKGROUND" value="352E2C"/>
+
+        <!-- Misc -->
+        <option name="CARET_COLOR" value="BBBBBB"/> <!-- Cursor -->
+        <option name="LINE_NUMBERS_COLOR" value="a3a3a3"/>
+        <option name="TEARLINE_COLOR" value="5c5959"/> <!-- Code fold line -->
+        <option name="SELECTED_TEARLINE_COLOR" value="a3a3a3"/>
+        <option name="INDENT_GUIDE" value="5c5959"/>
+        <option name="SELECTED_INDENT_GUIDE" value="a3a3a3"/>
+        <option name="SELECTION_BACKGROUND" value="41393C"/>
+
+        <option name="FILESTATUS_ADDED" value="96905f"/>
+        <option name="SELECTION_ FOREGROUND" value="96905f"/>
+        <option name="FILESTATUS_COPIED" value="a3a3a3"/>
+        <option name="WHITESPACES" value="a3a3a3"/>
+
+        <!--        TODO git highlighting-->
+        <!--        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="#a3a3a3"/>-->
+        <!--        <option name="FILESTATUS_RENAMED" value="#d2947a"/>-->
+        <!--        <option name="FILESTATUS_MODIFIED" value="#d2947a"/>-->
+        <!--        <option name="MODIFIED_LINES_COLOR" value="#d2947a"/>-->
+        <!--        <option name="READONLY_FRAGMENT_BACKGROUND" value=""/>-->
+
+        <!--ScrollBar - customization of vertical unavailable, default one preferred-->
+        <!--        <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="292424C8"/>-->
+        <!--        <option name="ScrollBar.Transparent.hoverThumbColor" value="a3a3a3"/>-->
+        <!--        <option name="ScrollBar.Transparent.hoverTrackColor" value="a3a3a35A"/>-->
+        <!--        <option name="ScrollBar.Transparent.thumbBorderColor" value="292424C8"/>-->
+        <!--        <option name="ScrollBar.Transparent.thumbColor" value="323232"/>-->
+        <!--        <option name="ScrollBar.Transparent.trackColor" value="292424"/>-->
+
+        <!--        <option name="ScrollBar.hoverThumbBorderColor" value="292424C8"/>-->
+        <!--        <option name="ScrollBar.hoverThumbColor" value="a3a3a3"/>-->
+        <!--        <option name="ScrollBar.hoverTrackColor" value="a3a3a35A"/>-->
+        <!--        <option name="ScrollBar.thumbBorderColor" value="292424C8"/>-->
+        <!--        <option name="ScrollBar.thumbColor" value="b1b1b1"/>-->
+        <!--        <option name="ScrollBar.trackColor" value="292424"/>-->
+        <!--Tabs -->
+        <!--        <option name="MODIFIED_TAB_ICON" value="c94040" />-->
+        <option name="TAB_UNDERLINE" value="f69d6d"/>
+        <option name="TAB_UNDERLINE_INACTIVE" value="f69d6d"/>
+
+        <!-- Windows -->
+        <option name="DOCUMENTATION_COLOR" value="352E2C"/>
+        <option name="ERROR_HINT" value="352E2C"/>
+        <option name="HINT_BORDER" value="352E2C"/>
+        <option name="INFORMATION_HINT" value="352E2C"/>
+        <option name="LOOKUP_COLOR" value="352E2C"/>
+        <option name="PROMOTION_PANE" value="352E2C"/>
+        <option name="QUESTION_HINT" value="352E2C"/>
+        <option name="RECENT_LOCATIONS_SELECTION" value="352E2C"/>
+        <option name="TOOLTIP" value="352E2C"/>
+        <option name="WARNING_HINT" value="352E2C"/>
+
+    </colors>
+
+    <attributes>
+        <option name="TAB_SELECTED">
+            <value>
+                <option name="BACKGROUND" value="352E2C"/>
+            </value>
+        </option>
+        <option name="TAB_SELECTED">
+            <value>
+                <option name="BACKGROUND" value="352E2C"/>
+            </value>
+        </option>
+        <option name="TAB_SELECTED_INACTIVE">
+            <value>
+                <option name="FOREGROUND" value="b1b1b1"/>
+                <option name="BACKGROUND" value="352E2C"/>
+            </value>
+        </option>
+
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="b1b1b1"/>
+                <option name="BACKGROUND" value="281F1E"/>
+            </value>
+        </option>
+
+        <option name="ABSTRACT_METHOD_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c68e6d"/>
+            </value>
+        </option>
+        <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="ffc66d"/>
+            </value>
+        </option>
+        <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="ffc66d"/>
+            </value>
+        </option>
+        <option name="INHERITED_METHOD_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c68e6d"/>
+            </value>
+        </option>
+        <option name="JAVA_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="e28029"/>
+            </value>
+        </option>
+        <option name="LAMBDA_PARAMETER_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c6b6a9"/>
+            </value>
+        </option>
+        <option name="LOCAL_VARIABLE_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c6b6a9"/>
+            </value>
+        </option>
+        <option name="METHOD_CALL_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c68e6d"/>
+            </value>
+        </option>
+        <option name="METHOD_DECLARATION_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="d5a962"/>
+            </value>
+        </option>
+        <option name="PARAMETER_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c6b6a9"/>
+            </value>
+        </option>
+        <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c6b6a9"/>
+                <option name="EFFECT_COLOR" value="635651"/>
+                <option name="EFFECT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c6b6a9"/>
+                <option name="EFFECT_COLOR" value="707d95"/>
+                <option name="EFFECT_TYPE" value="1"/>
+            </value>
+        </option>
+        <option name="STATIC_METHOD_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c68e6d"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="STATIC_METHOD_IMPORTED_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="c68e6d"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="a9b7c6"/>
+            </value>
+        </option>
+    </attributes>
+</scheme>

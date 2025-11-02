@@ -1,0 +1,38 @@
+{
+  "name": "DarkCoffee",
+  "dark": true,
+  "author": "0o-Mi",
+  "editorScheme": "/theme/DarkCoffee.xml",
+  "colors": {
+    "backgroundColor": "#352E2C",
+    "foregroundColor": "#b1b1b1",
+    "foregroundColorAlternative": "#b1b1b1",
+    "foregroundColorAlternative2": "#a3a3a3",
+    "selectionColor": "#3a3636",
+    "noInactiveColor": "#292424",
+    "errorColor": "#e81050",
+    "borderColor": "#5c5959",
+    "borderColorAlternative": "#323232",
+    "focusColor": "#96905f",
+    "orangeColor": "#f69d6d"
+  },
+  "ui": {
+    "*": {
+      "background": "backgroundColor",
+      "foreground": "foregroundColor",
+      "inactiveBackground": "noInaciveColor",
+      "disabledBackground": "noInactiveColor",
+      "selectionBackground": "selectionColor",
+      "selectionInactiveBackground": "selectionColor",
+      "acceleratorForeground": "orangeColor",
+      "acceleratorSelectionForeground": "orangeColor",
+      "errorForeground": "errorColor",
+      "borderColor": "borderColor",
+      "disabledBorderColor": "noInactiveColor",
+      "focusColor": "focusColor",
+      "focusedBorderColor": "focusColor",
+      "separatorColor": "borderColor",
+      "windowBorder": "borderColor"
+    }
+  }
+}
