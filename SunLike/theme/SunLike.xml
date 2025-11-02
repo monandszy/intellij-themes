@@ -2260,7 +2260,7 @@
     </option>
     <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
       <value>
-        <option name="FOREGROUND" value="BBBBBB" />
+        <option name="FOREGROUND" value="bbbbbb" />
         <option name="BACKGROUND" value="40503c" />
       </value>
     </option>
@@ -2385,7 +2385,7 @@
     </option>
     <option name="XML_PROLOGUE">
       <value>
-        <option name="BACKGROUND" value="282c34" />
+        <option name="BACKGROUND" value="000000" />
         <option name="FOREGROUND" value="bbbbbb" />
       </value>
     </option>

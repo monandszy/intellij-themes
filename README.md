@@ -11,7 +11,7 @@ This repository contains my themes for Intellij Idea, made for the version 2024.
 - has resuidual coloring from dracula
 ![ThemePreview](DCPreview.png)
 
-### DarkCoffee
+### SunLike
 - a high-contrast black, warm colored theme.
 - uses code coloring from the OneDark theme (https://plugins.jetbrains.com/plugin/11938-one-dark-theme)
 ![ThemePreview](SLPreview.png)
