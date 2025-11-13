@@ -17,7 +17,7 @@ This repository contains my themes for Intellij Idea, made for the version 2024.
 ![ThemePreview](SLPreview.png)
 ---
 
-## Installation
+  ## Installation
 
 - Manually:
   Download the [latest release](https://github.com/0o-Mi/Dark-Coffee-Theme/releases/latest) and install it manually

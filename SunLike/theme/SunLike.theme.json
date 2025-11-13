@@ -97,7 +97,6 @@
     "ComboPopup.border": "borderColor",
     "CompletionPopup": {
       "matchForeground": "highlightColor",
-      "nonFocusedMask": "backgroundColor",
       "selectionBackground": "selectionColor"
     },
     "Component": {

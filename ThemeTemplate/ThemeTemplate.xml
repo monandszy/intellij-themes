@@ -95,12 +95,12 @@
   <option name="PRESENTATION_ASSISTANT_HINT_FOREGROUND" value="{foreground}" />
   <option name="GRID_STRIPE_COLOR" value="{borderColor}" />
 
-  <option name="INFORMATION_HINT" value="{mainBackground}" />
+  <!-- <option name="INFORMATION_HINT" value="{mainBackground}" />
   <option name="PROMOTION_PANE" value="{mainBackground}" />
-  <option name="QUESTION_HINT" value="{mainBackground}" />
+  <option name="QUESTION_HINT" value="{mainBackground}" /> -->
   <option name="READONLY_BACKGROUND" value="{mainBackground}" />
   <option name="RECENT_LOCATIONS_SELECTION" value="{selectionBackground}" />
-  <option name="TOOLTIP" value="{mainBackground}" />
+  <!-- <option name="TOOLTIP" value="{mainBackground}" /> -->
 
   <option name="ERROR_HINT" value="{errorHintBackground}" />
   <option name="WARNING_HINT" value="{warningHintBackground}" />
