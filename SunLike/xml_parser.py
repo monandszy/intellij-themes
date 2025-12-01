@@ -28,7 +28,6 @@ STYLE_MAP = {
   "imageCheckerboard": "353535",
   "errorHintBackground": "400000",
   "warningHintBackground": "404000",
-  "vcsMergeConflict": "aa0000",
   "accentColor": "b4b400",
   "foreground": "c1c100",
   "guideColor": "6c6c00",
@@ -38,6 +37,10 @@ STYLE_MAP = {
   "vcsDeleted": "aa0000",
   "vcsUnknown": "bc2500",
   "vcsIgnored": "6c6c00",
+  "vcsMergeConflict": "aa0000",
+  "linesAdded": "b4b400",    
+  "linesModified": "de7400", 
+  "linesDeleted": "aa0000",  
   "errorColor": "e8100",
   "warningColor": "de7400",
   "mainfg": "bbbbbb",
@@ -49,9 +52,6 @@ STYLE_MAP = {
   "type": "FF8800",
   "constant": "FFC900",
   "comment": "5C120E  ",
-  "dgrayColor": "",
-  "lgrayColor": "",
-  "grayColor": ""
 }
 
 def replace_color_placeholders(input_file, output_file):

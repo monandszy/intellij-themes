@@ -31,32 +31,29 @@
   <option name="TEARLINE_COLOR" value="6c6c00" />                
   <option name="SELECTED_TEARLINE_COLOR" value="b4b400" />      
 
-  <option name="ADDED_LINES_COLOR" value="b4b400" />               
-  <option name="MODIFIED_LINES_COLOR" value="de7400" />          
-  <option name="DELETED_LINES_COLOR" value="aa0000" />           
+  <option name="ADDED_LINES_COLOR" value="b4b400" />
+  <option name="MODIFIED_LINES_COLOR" value="de7400" />
+  <option name="DELETED_LINES_COLOR" value="aa0000" />
+  <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="de7400" />
+  <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="6c6c00" />
 
-  <option name="FILESTATUS_ADDED" value="b4b400" />                
-  <option name="FILESTATUS_MODIFIED" value="de7400" />          
-  <option name="FILESTATUS_DELETED" value="aa0000" />            
-  <option name="FILESTATUS_COPIED" value="b4b400" />               
-  <option name="FILESTATUS_RENAMED" value="de7400" />           
-  <option name="FILESTATUS_UNKNOWN" value="bc2500" />            
-  <option name="FILESTATUS_HIJACKED" value="bc2500" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="6c6c00" /> 
-  <option name="FILESTATUS_CHANGELIST_CONFLICT" value="{vcsConflict}" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="{vscDeleted}" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="aa0000" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="aa0000" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="aa0000" />
+  <option name="FILESTATUS_ADDED" value="b4b400" />
+  <option name="FILESTATUS_COPIED" value="b4b400" />
   <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="b4b400" />
-  <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="6c6c00" />
-  <option name="FILESTATUS_MERGED" value="{vcsMerged}" />
+  <option name="FILESTATUS_MODIFIED" value="de7400" />
+  <option name="FILESTATUS_RENAMED" value="de7400" />
   <option name="FILESTATUS_MODIFIED_OUTSIDE" value="de7400" />
   <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="de7400" />
   <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="de7400" />
+  <option name="FILESTATUS_SWITCHED" value="de7400" />
+  <option name="FILESTATUS_DELETED" value="aa0000" />
+  <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="aa0000" />
+  <option name="FILESTATUS_UNKNOWN" value="bc2500" />
+  <option name="FILESTATUS_HIJACKED" value="bc2500" />
+  <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="6c6c00" />
+  <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="6c6c00" />
   <option name="FILESTATUS_OBSOLETE" value="6c6c00" />
   <option name="FILESTATUS_SUPPRESSED" value="6c6c00" />
-  <option name="FILESTATUS_SWITCHED" value="de7400" />
 
   <option name="ANNOTATIONS_COLOR" value="c1c100" />           
   <option name="ANNOTATIONS_MERGED_COLOR" value="de7400" />     
@@ -67,7 +64,6 @@
   <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="6c6c00" />
   <option name="MT_SUPPRESSED" value="6c6c00" />
   <option name="NOT_CHANGED" value="c1c100" />
-  <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="6c6c00" />
 
   <option name="HTML_TAG_TREE_LEVEL0" value="ed6b88" />
   <option name="HTML_TAG_TREE_LEVEL1" value="f9d778" />
@@ -116,9 +112,6 @@
   <option name="TAB_UNDERLINE" value="6c6c00" />
   <option name="TAB_UNDERLINE_INACTIVE" value="6c6c00" />
   <option name="VISUAL_INDENT_GUIDE" value="6c6c00" />
-
-  <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="c1c100" />
-
     
   <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="252525" />
   <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="000000" />

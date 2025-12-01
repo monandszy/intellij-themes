@@ -31,32 +31,29 @@
   <option name="TEARLINE_COLOR" value="{guideColor}"/>                <!-- The color of lines used for code folding. -->
   <option name="SELECTED_TEARLINE_COLOR" value="{accentColor}"/>      <!-- The color of the line for the currently selected foldable code block. -->
 
-  <option name="ADDED_LINES_COLOR" value="{vcsAdded}"/>               <!-- The color marker in the gutter for newly added lines. -->
-  <option name="MODIFIED_LINES_COLOR" value="{vcsModified}"/>          <!-- The color marker in the gutter for modified lines. -->
-  <option name="DELETED_LINES_COLOR" value="{vcsDeleted}"/>           <!-- The color marker in the gutter indicating where lines were deleted. -->
+  <option name="ADDED_LINES_COLOR" value="{linesAdded}"/>
+  <option name="MODIFIED_LINES_COLOR" value="{linesModified}"/>
+  <option name="DELETED_LINES_COLOR" value="{linesDeleted}"/>
+  <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="{linesModified}" />
+  <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="{borderColor}" />
 
-  <option name="FILESTATUS_ADDED" value="{vcsAdded}"/>                <!-- The text color for new files in the project view. -->
-  <option name="FILESTATUS_MODIFIED" value="{vcsModified}"/>          <!-- The text color for modified files in the project view. -->
-  <option name="FILESTATUS_DELETED" value="{vcsDeleted}"/>            <!-- The text color for deleted files in the project view. -->
-  <option name="FILESTATUS_COPIED" value="{vcsAdded}"/>               <!-- The text color for copied or newly integrated files. -->
-  <option name="FILESTATUS_RENAMED" value="{vcsModified}"/>           <!-- The text color for renamed files. -->
-  <option name="FILESTATUS_UNKNOWN" value="{vcsUnknown}"/>            <!-- The text color for files not under version control. -->
-  <option name="FILESTATUS_HIJACKED" value="{vcsUnknown}" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="{vcsIgnored}"/> <!-- The text color for ignored files (e.g., from .gitignore). -->
-  <option name="FILESTATUS_CHANGELIST_CONFLICT" value="{vcsConflict}" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="{vscDeleted}" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="{vcsMergeConflict}" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="{vcsMergeConflict}" />
-  <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="{vcsMergeConflict}" />
+  <option name="FILESTATUS_ADDED" value="{vcsAdded}"/>
+  <option name="FILESTATUS_COPIED" value="{vcsAdded}"/>
   <option name="FILESTATUS_IDEA_SVN_FILESTATUS_EXTERNAL" value="{vcsAdded}" />
-  <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="{vcsIgnored}" />
-  <option name="FILESTATUS_MERGED" value="{vcsMerged}" />
+  <option name="FILESTATUS_MODIFIED" value="{vcsModified}"/>
+  <option name="FILESTATUS_RENAMED" value="{vcsModified}"/>
   <option name="FILESTATUS_MODIFIED_OUTSIDE" value="{vcsModified}" />
   <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="{vcsModified}" />
   <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="{vcsModified}" />
+  <option name="FILESTATUS_SWITCHED" value="{vcsModified}" />
+  <option name="FILESTATUS_DELETED" value="{vcsDeleted}"/>
+  <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="{vcsDeleted}" />
+  <option name="FILESTATUS_UNKNOWN" value="{vcsUnknown}"/>
+  <option name="FILESTATUS_HIJACKED" value="{vcsUnknown}" />
+  <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="{vcsIgnored}"/>
+  <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="{vcsIgnored}" />
   <option name="FILESTATUS_OBSOLETE" value="{vcsIgnored}" />
   <option name="FILESTATUS_SUPPRESSED" value="{vcsIgnored}" />
-  <option name="FILESTATUS_SWITCHED" value="{vcsModified}" />
 
   <option name="ANNOTATIONS_COLOR" value="{foreground}"/>           <!-- The text color for VCS annotations in the gutter. -->
   <option name="ANNOTATIONS_MERGED_COLOR" value="{vcsModified}"/>     <!-- The annotation color for lines that have been merged. -->
@@ -67,7 +64,6 @@
   <option name="MT_IGNORE.PROJECT_VIEW.IGNORED" value="{vcsIgnored}" />
   <option name="MT_SUPPRESSED" value="{vcsIgnored}" />
   <option name="NOT_CHANGED" value="{foreground}" />
-  <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="{borderColor}" />
 
   <option name="HTML_TAG_TREE_LEVEL0" value="{htmlTree0}" />
   <option name="HTML_TAG_TREE_LEVEL1" value="{htmlTree1}" />
@@ -116,9 +112,6 @@
   <option name="TAB_UNDERLINE" value="{guideColor}" />
   <option name="TAB_UNDERLINE_INACTIVE" value="{guideColor}" />
   <option name="VISUAL_INDENT_GUIDE" value="{guideColor}" />
-
-  <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="{foreground}" />
-
     
   <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="{scrollbarThumbHover}" />
   <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="{scrollbarTrack}" />
